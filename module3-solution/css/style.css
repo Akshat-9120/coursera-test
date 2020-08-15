@@ -1,0 +1,87 @@
+/* body */
+body{
+	background-color: orange;
+	font-size: 15px;
+	color: brown;
+}
+/* header */
+#header-nav{
+	background-color: brown;
+	border: 0;
+	border-radius: 0;
+	height: 70px;
+}
+.navbar-brand h1{
+	color: orange;
+	font-family: 'Monotype Corsiva';
+	font-size: 50px;
+	text-shadow: 5px 5px 5px #000;
+	font-weight: bold;
+	line-height: 0.75;
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+/* button */
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: brown;
+	text-align: center;
+	font-size: 20px;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid orange;
+}
+/* heading */
+.text-center{
+	font-size: 50px;
+	font-family: 'Monotype Corsiva';
+	font-weight: bold;
+}
+/* header (end) */
+
+/* content */
+#main-content{
+	border: 1px solid white;
+	background-color: white;
+	font-family: 'Comic Sans MS';
+	font-size: 20px;
+}
+
+/* ----- Large Devices ----- */
+
+@media(min-width: 1200px){
+	.col-xl-12{
+	text-align: center;
+	font-size: 40px;
+	}
+}
+
+/* ----- Medium Devices ----- */
+
+@media(min-width: 768px) and (max-width: 1199px){
+	.col-md-12{
+	text-align: center;
+	font-size: 40px;
+	}
+}
+
+/* ----- Small Devices ----- */
+
+@media(max-width: 767px){
+	.col-xs-12{
+	text-align: center;
+	font-size: 40px;
+	}
+	#main-content{
+		width: 90%;
+	}
+}
